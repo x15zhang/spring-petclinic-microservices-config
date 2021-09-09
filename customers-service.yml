@@ -11,7 +11,7 @@ spring:
     activate:
       on-profile: docker
   zipkin:
-    baseUrl: http://tracing-server:9411
+    baseUrl: http://aos-user-gateway-collector.kube-system.svc.cluster.local:9411
 server:
   port: 8081
 eureka:
